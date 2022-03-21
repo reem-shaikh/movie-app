@@ -60,5 +60,4 @@ git push -u origin master
 ```
 > create an account on netlify and push to already existing project.
 
-> A gif preview:
-> ![](1.gif)
+![Gif Preview](1.gif)
