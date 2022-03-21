@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Axios from "axios";
 import styled from "styled-components";
 import MovieComponent from "./components/MovieComponent";
@@ -83,7 +83,7 @@ function App() {
   //this is for maintaining the timeout to implement debouncing
   const [timeoutId, updateTimeoutId] = useState();
 
-  const [load, onLoad] = useState([]);
+  //const [load, onLoad] = useState([]);
 
   //were adding the search URL 
   const fetchData = async (searchString) => {

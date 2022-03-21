@@ -37,7 +37,10 @@ http://www.omdbapi.com/?i=tt3896198&apikey=a96522ba
 https://www.omdbapi.com/?s=avengers&apikey=a96522ba
 ```
 
-#### left to implement 
-- first screen page 
-- refer sirs video 
-- host on netlify with https
+#### Deployment to netlify
+```bash
+git init
+git add -A
+git commit -m 'added'
+git push -u origin master 
+```
