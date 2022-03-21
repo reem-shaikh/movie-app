@@ -6,11 +6,11 @@ export const API_KEY = "a96522ba";
 
 const SearchList = (props) => {
   const [movies, setMovies] = useState([]);
-
   const fn = async () => {
-    const response = await fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=top`);
+    const response = await fetch(`https://www.omdbapi.com/?s=top&apikey=${API_KEY}`);
     const data = await response.json();
     setMovies(data.Search);
+
   };
 
   useEffect(() => { fn(); }, []);
