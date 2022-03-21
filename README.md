@@ -59,5 +59,3 @@ git pull
 git push -u origin master 
 ```
 > create an account on netlify and push to already existing project.
-
-![Gif Preview](1.gif)
