@@ -1,4 +1,6 @@
-### Movies app
+### Movie app
+![](1.PNG)
+
 Create an application to show the Database of movies, you can use OMDB API ( https://www.omdbapi.com/ ). 
 - Your application should have a list screen to show the top 20 movies of all time. 
 - Then it should have a search input where anyone should be able to search for any movie. 
