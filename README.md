@@ -8,13 +8,11 @@ Create an application to show the Database of movies, you can use OMDB API ( htt
 ![](1.PNG)
 
 ### Features implemented
-✅  App setup
-✅  API setup at OMDB
-✅  UI creation using styled-components
-✅  Debouncing implementation - debouncing literally means we'll be calling the API only when the user completes typing, it doesnt call during every input change in the input field.
-✅  Component based development
-✅  Responsive UI using Flex Concept
-✅  API integration with axios
+- API setup at OMDB
+- UI creation using styled-components
+- Debouncing implementation - debouncing literally means we'll be calling the API only when the user completes typing, it doesnt call during every input change in the input field.
+- Responsive UI 
+- API integration with axios
 
 ### Dependencies used:
 - axios library 
@@ -44,3 +42,4 @@ git add -A
 git commit -m 'added'
 git push -u origin master 
 ```
+> create an account on netlify and push to already existing project.
