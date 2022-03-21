@@ -3,7 +3,7 @@ import Axios from "axios";
 import styled from "styled-components";
 import MovieComponent from "./components/MovieComponent";
 import MovieInfoComponent from "./components/MovieInfoComponent";
-
+import SearchList from "./components/SearchList";
 export const API_KEY = "a96522ba";
 
 const Container = styled.div`
@@ -96,16 +96,6 @@ function App() {
     updateMovieList(response.data.Search);
   };
 
-      // const loadData = () => {
-      //   Axios.get(
-      //     `https://www.omdbapi.com/?s=top&apikey=${API_KEY}`,
-      //   ).then((response) => 
-      //   {
-      //    console.log(response)
-      //     onLoad(response.data)
-      //   }
-      //   )
-      // }
     
   const onTextChange = (e) => {
     onMovieSelect("")
@@ -122,7 +112,10 @@ function App() {
     updateTimeoutId(timeout);
   };
 
+
+
   return (
+
     <Container>
       <Header>
         <AppName>
@@ -138,6 +131,8 @@ function App() {
           />
         </SearchBox>
       </Header>
+
+
       {/* if there is something inside the selectedMovie state only then render the MovieInfoComponent and pass these props to it */}
       {selectedMovie && <MovieInfoComponent selectedMovie={selectedMovie} onMovieSelect={onMovieSelect}/>}
       <MovieListContainer>
@@ -151,7 +146,8 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="/react-movie-app/movie-icon.svg" />
+         
+          <SearchList/>
     
         )}
         

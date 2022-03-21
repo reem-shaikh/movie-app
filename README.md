@@ -7,12 +7,18 @@ Create an application to show the Database of movies, you can use OMDB API ( htt
 
 ![](1.PNG)
 
-### Features implemented
+### An overview: 
+1. initial page shown to the user is a bunch of preloaded movies
+2. when user clicks on the searchbar, he is redirected to the movie that hes searching for
+3. when user clicks on the movie card, he is redirected to the details tab.
+
+### Features implemented:
 - API setup at OMDB
 - UI creation using styled-components
 - Debouncing implementation - debouncing literally means we'll be calling the API only when the user completes typing, it doesnt call during every input change in the input field.
 - Responsive UI 
 - API integration with axios
+
 
 ### Dependencies used:
 - axios library 
@@ -20,6 +26,8 @@ Create an application to show the Database of movies, you can use OMDB API ( htt
 ```bash 
 npm i styled-components axios --save
 ```
+- @mui/material 
+  
 ### API used 
 - OMDB 
 1. create an account
@@ -52,8 +60,3 @@ git push -u origin master
 ```
 > create an account on netlify and push to already existing project.
 
-#### Left To implement 
-- front page `top movie` loads 
-- a bottom nav using router 
-- watch sirs lec for inspo 
-- deploy to netlify and update
