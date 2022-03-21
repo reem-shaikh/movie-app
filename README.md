@@ -37,9 +37,23 @@ https://www.omdbapi.com/?s=avengers&apikey=a96522ba
 
 #### Deployment to netlify
 ```bash
+# pushing code for the first time from local to git 
 git init
+git remote add origin ..
 git add -A
 git commit -m 'added'
 git push -u origin master 
+
+# pushing code afterwords
+git add -A
+git commit -m 'added'
+git pull
+git push -u origin master 
 ```
 > create an account on netlify and push to already existing project.
+
+#### Left To implement 
+- front page `top movie` loads 
+- a bottom nav using router 
+- watch sirs lec for inspo 
+- deploy to netlify and update
