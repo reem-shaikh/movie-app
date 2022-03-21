@@ -7,8 +7,6 @@ Create an application to show the Database of movies, you can use OMDB API ( htt
 - After searching, it should show a list of all the search results which will contain the list of all the searched movies. 
 - On clicking on any of the movie, it should show the detail of that movie including the movie poster, information about the cast, trailers, synopsis, reviews, etc. 
 
-![](1.gif)
-
 ### An overview: 
 1. initial page shown to the user is a bunch of preloaded movies
 2. when user clicks on the searchbar, he is redirected to the movie that hes searching for
@@ -62,3 +60,5 @@ git push -u origin master
 ```
 > create an account on netlify and push to already existing project.
 
+> A gif preview:
+> ![](1.gif)
