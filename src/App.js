@@ -125,7 +125,6 @@ function App() {
         <SearchBox>
           <SearchIcon src="/react-movie-app/search-icon.svg" />
           <SearchInput
-            placeholder="Search Movie"
             value={searchQuery}
             onChange={onTextChange}
           />
